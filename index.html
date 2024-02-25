@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+  <div class="hero">
+    <img src="./img/Principal.jpg" alt="">
+  </div>
+  <div class="header">
+    <div class="wrapper">
+      <div class="header-content">
+            <header>
+              <nav class="indice">
+                <p>CONTENIDO</p>
+                <details open>
+                  <summary>
+                    Git GitHub
+                  </summary>
+                  <ol>
+                    <li>
+                      <a href="#google-chrome">Git</a>
+                    </li>
+                    <li>
+                      <a href="#vsc">Como se Usa Git</a>
+                    </li>
+                    <li>
+                      <a href="#figma">GitHub</a>
+                    </li>
+                    <li>
+                      <a href="#github">Como se Usa GitHub</a>
+                    </li>
+                  </ol>
+                </details>
+                <details>
+                  <summary>
+                    HTML5 y Css3
+                  </summary>
+                  <ol>
+                    <li>
+                      <a href="#aboutHtml">Qué es HTML</a>
+                    </li>
+                    <li>
+                      <a href="#market">Etiquetas</a>
+                    </li>
+                    <li>
+                      <a href="#dom">Selectores</a>
+                    </li>
+                    <li>
+                      <a href="#semantic">Que Es CSS</a>
+                    </li>
+                    <li>
+                      <a href="#attribute">Flexbox</a>
+                    </li>
+                    <li>
+                      <a href="#aboutCSS">CSS Grid</a>
+                    </li>
+                  </ol>
+                </details>
+              </nav>
+            </header>
+      </div>
+    </div>
+  </div>
+  <main class="main">
+    <div class="wrapper">
+      <div class="main-content">
+        <section class="section-content">
+          <h1>Resumen Del Modulo 2</h1>
+          <p class="description">Este es el Proyecto donde vamos a resumir todo lo visto en el modulo 2, veremos los contenidos bases de Git y GitHub y como usarlos, tambien veremos HTML5 y como se usan las etiquetas y por ultimo veremos CSS para poder tener unas bases de como empezar una pagina web y estilizarla
+          </p>
+          <hr />
+          <h2>Git y GitHub</h2>
+          <img src="img/git.png" alt="Logo de google chrome" title="Logo de google chrome">
+          <h3 id="google-chrome">Git</h3>
+          <p>
+            Git es un sistema de control de versiones distribuido que te permite registrar
+            los cambios que haces en tus archivos y volver a versiones anteriores si algo
+            sale mal. 
+            Git está optimizado para guardar cambios de forma incremental.
+            Permite contar con un historial, regresar a una versión anterior y
+            agregar funcionalidades.
+            Lleva un registro de los cambios que otras personas realicen en los
+            archivos.
+          </p>
+          <img src="img/git2.png" alt="Logo de visual studio code" title="Logo de visual studio code">
+          <h3 id="vsc">Como se Usa Git</h3>
+          <p>Git al ser un sistema de control de versiones almacena la informacion como un conjunto de archivs generando las versiones anteriores este permite crear ramas en el proyecto lo que te permite trabajar en distintas caracteristicas o aspectos.
+            Este se usa mediante comandos donde git tiene una sintaxis de comandos bastante sencilla de comprender entre ellos estan:
+
+            <li>
+              <a>git config --list: muestra la configuracion actual</a>
+            </li>
+            <br>
+            <li>
+              <a>git branch -M main: renombra la rama actual, en la que se esta</a>
+            </li>
+            <br>
+            <li>
+              <a>git config --global alias.&lt;nombreAlias&gt; "&lt;comando&gt;": crea un alias especifico para git</a>
+            </li>
+            <br>
+            <li>
+              <a>git init: inicia repositorio (carpeta git) en el directorio actual</a>
+            </li>
+            <br>
+            <li>
+              <a>git add: agrega todos los archivos modificados al staging</a>
+            </li>
+            <br>
+            <li>
+              <a>git commit -m "": guarda en el repositorio los archivos del staging</a>
+            </li>
+          </p>
+          <p>
+            todavia hay cantidad de comandos para poder usar git, y eston se usas deacuerdo a lo que se tenga en cuenta hacer.
+          </p>
+          <img src="img/github.png" alt="Logo de figma" title="Logo de figma">
+          <h3 id="figma">GitHub</h3>
+          <p>Github es una plataforma de desarrollo para alojar proyectos utilizando el sistema de control de versiones Git. Se emplea principalmente para la creación de código fuente de programas de computadora.</p>
+          <p>A GitHub se le podria poder tomar como la red social de código para los programadores, ya que aquí se guarda el portafolio de proyectos de programación mediante repositorios.</p>
+          <img src="img/github (1).png" alt="Logo de github" title="Logo de github">
+          <h3 id="github">Como se Usa GitHub</h3>
+          <p>
+            
+            Aqui hay algunas de las cosas que GitHub nos deja hacer:
+            <li><a>
+              GitHub permite alojar proyectos en repositorios de forma gratuita y pública, pero tiene una forma de pago para privados.
+            </a></li>
+            <br>
+            <li><a>
+              Nos permite compartir fácilmente tus proyectos.Permite colaborar para mejorar los proyectos de otros y a otros mejorar o aportar a los tuyos.
+            </a></li>
+            <br>
+            <li><a>
+              Ofrece todas las ventajas del sistema de control de versiones Git, pero también tiene otras herramientas que ayudan a tener un mejor control de los proyectos.
+            </a></li>
+            <br>
+          </p>
+          <p>
+            Al GitHub poder usar el mismo sistema de control de Git este usa comando de este entre ellos estan:
+
+            <li><a>
+              git remote add origen &lt;url&gt;: vincula el repositorio local con el repositorio remoto
+            </a></li>
+            <br>
+            <li><a>
+              git push -u origin main: envia los archivos del repositorio local al repositorio remoto
+            </a></li>
+            <br>
+            <li><a>
+              git pull origin main : nos va a trar al repositorio local, a la rama main, las actualizaciones que haya en el repositorio remoto
+            </a></li>
+            <br>
+            <li><a>
+              git remote: muestra los repositorios remotos con los que se tiene vinculo
+            </a></li>
+            <br>
+            <li><a>
+              git reflog: muestra toda la historia del repositorio
+            </a></li>
+            <br>
+            <li><a>
+              git commit --amend : remienda el ultimo cmmit
+            </a></li>
+          </p>
+          <hr>
+        </section>
+        <hr>
+        <section class="section-content">
+          <h2>HTML5 y CSS3</h2>
+          <img src="./img/html.png" alt="">
+          <h3 id="aboutHtml">Qué es HTML</h3>
+          <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. El HTML es un lenguaje de marcación de elementos para la creación de documentos hipertexto, muy fácil de aprender, lo que permite que cualquier persona, aunque no haya programado en la vida, pueda enfrentarse a la tarea de crear una web.</p>
+          <p></p>
+          <pre>
+            <!--Esta forma podemos mostrar html dentro del navegador sin que lo pueda interpretar.-->
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+z
+&lt;/body&gt;
+&lt;/html&gt;
+
+<p>Ejemplo de Esqueleto de HTML5</p>
+
+      </pre>
+          <h3 id="market">Etiquetas</h3>
+          <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y usos diferentes aunque visualmente den un resultado similar.</p>
+          <p>Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, estas se componen de etiquetas de cierre y de apertura aunque algunas otras solo poseen etiquetas unicas.</p>
+          <h3 id="dom">Selectores</h3>
+          <p>Los selectores CSS son herramientas utilizadas para definir el estilo que quieres dar a tus elementos en CSS. Existen muchos tipos de selectores en este lenguaje, cada uno con su propia sintaxis y utilidad. El uso de las reglas de programación correctas ayuda al explorador a aplicar propiedades específicas a los elementos indicados.</p>
+          <p>Entre estos los mas comunes son:
+
+            <li><a>
+              Selector universal: *todo
+            </a></li>
+            <br>
+            <li><a>
+              Selector de tipo (Se usa para elegir una etiqueta en general de todo el HTML): elemento{propiedades de estilo}
+            </a></li>
+            <br>
+            <li><a>
+              Selector de Clase: .class
+            </a></li>
+            <br>
+            <li><a>
+              Selector de ID: #ID
+            </a></li>
+            <br>
+            <li><a>
+              Selector de atributo: []atributo
+            </a></li>
+
+            pero que es CSS?
+          </p>
+          <img src="https://i.ytimg.com/vi/blMJjUPTxTY/maxresdefault.jpg" alt="Document Object Model" title="Document Object Model" width="1000" height="500" class="selector">
+          <div>
+            <img src="./img/css-3.png" alt="">
+          </div>
+          <h3 id="semantic">Que Es CSS</h3>
+          <p>El CSS podría definirse como un tipo de lenguaje que permite definir y crear la presentación visual de un documento ya estructurado y escrito en un lenguaje de marcado como puede ser HTML. Es decir, permite generar el diseño visual de páginas web e interfaces de usuario. Esta maneja los estillos mediante cascada, osea que va implementando los estilos de arriba hacia abajo.</p>
+          <h3 id="attribute">Flexbox</h3>
+          <p>Flexbox es un modelo de diseño que nos permite pocisionar los elemtos dentro de HTML, este nos permite ajustar o cambiar desde su altura o anchura dependiendo de lo que requiramos</p>
+          <p>Pero, flexbox para poder funcionar necesita poder tener un padre y un hijo para poder ver y aplicar los cambios, el hijo se alinea o se aplica el flexbox dependiendo de las propiedades que se le indiquen al padre, este posee muchisimos atributos que nos permite alinear o interactuar</p>
+          <h3 id="aboutCSS">CSS Grid</h3>
+          <p> Es un recurso CSS para poder distribuir un sitio web en una cuadrícula, pero teniendo el control total sobre la posición de los elementos, tanto en las filas, como en las columnas.
+
+            Esto proporciona una gran flexibilidad para aprovechar todas sus capacidades y diseños.
+            
+            Con CSS grid se distribuyen las partes de una web en secciones más pequeñas y puedes determinar el tamaño y la posición de cada uno de los elementos que compongan la web.</p>
+            <p>Entre las propiedades que hay tenemos:
+
+              <li><a>
+                Display grid
+              </a></li>
+              <br>
+              <li><a>
+                Grid-template
+              </a></li>
+              <br>
+              <li><a>
+                Gaps
+              </a></li>
+              <br>
+              <li><a>
+                Grid-auto
+              </a></li>
+              <br>
+              <li><a>
+                justify-items
+              </a></li>
+              <br>
+              <li><a>
+                align-items
+              </a></li>
+              <br>
+              <li><a>
+                Place-items
+              </a></li>
+              <br>
+              <li><a>
+                Justify-content
+              </a></li>
+              <br>
+              <li><a>
+                align-content
+              </a></li>
+              <br>
+              <li><a>
+                place-content
+              </a></li>
+              <br>
+              igualmente, este posee muchas propiedades, para poder alinear, ubicar y entre otras mas.
+            </p>
+          <img src="./img/image_css.png" alt="Cascading Style Sheets" title="Cascading Style Sheets" class="css">
+        </section>
+        <section class="section-content">
+          <h2>Modelo de caja</h2>
+          <h3>El modelo de caja está compuesto por:</h3>
+          <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
+          <ol>
+            <li>Tamaño del del contenido / ancho y alto</li>
+            <li>Padding / Relleno</li>
+            <li>Border / Bordes</li>
+            <li>Margin / Márgenes</li>
+          </ol>
+          <h3>Propiedades físicas para el modelo de caja:</h3>
+          <ul>
+            <li>width / height</li>
+            <li>margin / margin-top | margin-right | margin-bottom | margin-left</li>
+            <li>border / border-top | border-right | border-bottom | border-left</li>
+            <li>padding / padding-top | padding-right | padding-bottom | padding-left</li>
+          </ul>
+          <h3>Propiedades lógicas para el modelo de caja:</h3>
+          <ul>
+            <li>inline-size / block-size</li>
+            <li>margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
+            <li>border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end</li>
+            <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
+            <h2>Nota: Esto al ser del mismo tema que vimos en el modulo 2 el investigador decidio dejarlo en el resumen</h2>
+          </ul>
+        </section>
+        <div class="section-content">
+        </div>
+        <p class="enlace">Resumen hecho por 
+         <a href="https://github.com/Samydesk?tab=repositories"  target="_blank">Samuel Ramirez</a>
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer__container-p">
+        <p>© Samuel Ramirez </p>
+      </div>
+      <div class="footer__container-social">
+        <a href="" target="_blank"><img src="./img/instagram.svg" alt="instagram"></a>
+        <a href="" target="_blank"><img src="./img/facebook.svg" alt="facebook"></a>
+        <a href="" target="_blank"><img src="./img/twitter.svg" alt="twitter"></a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const detailsList = document.querySelectorAll('details')
+    detailsList.forEach((details) => {
+      details.querySelector('summary').addEventListener('click', expand);
+    })
+
+    function expand() {
+      detailsList.forEach((details) => {
+      details.removeAttribute('open');
+      })
+    }
+  </script>
+</body>
+</html>
